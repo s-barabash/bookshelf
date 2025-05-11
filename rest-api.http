@@ -1,0 +1,12 @@
+POST http://localhost:18081/api/books
+Content-Type: application/json
+
+{
+  "title": "Clean Code",
+  "author": "Robert C. Martin",
+  "year": 2008
+}
+
+###
+
+GET http://localhost:18081/api/books
